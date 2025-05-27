@@ -1,24 +1,7 @@
 {
   "name": "R75 QMK",
   "vendorProductId": 875422852,
-  "macros": [
-    "",
-    "@",
-    "#",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
-  ],
+  "macros": ["", "@", "#", "", "", "", "", "", "", "", "", "", "", "", "", ""],
   "layers": [
     [
       "KC_ESC",
@@ -236,9 +219,9 @@
       "KC_BSPC",
       "KC_HOME",
       "KC_TAB",
-      "S(KC_QUOT)",
-      "S(KC_COMM)",
-      "S(KC_DOT)",
+      "KC_QUOT",
+      "KC_COMM",
+      "KC_DOT",
       "KC_P",
       "KC_Y",
       "KC_F",
@@ -483,26 +466,11 @@
   ],
   "encoders": [
     [
-      [
-        "KC_VOLU",
-        "KC_VOLD"
-      ],
-      [
-        "KC_VOLU",
-        "KC_VOLD"
-      ],
-      [
-        "KC_VOLU",
-        "KC_VOLD"
-      ],
-      [
-        "KC_VOLU",
-        "KC_VOLD"
-      ],
-      [
-        "KC_VOLU",
-        "KC_VOLD"
-      ]
+      ["KC_VOLU", "KC_VOLD"],
+      ["KC_VOLU", "KC_VOLD"],
+      ["KC_VOLU", "KC_VOLD"],
+      ["KC_VOLU", "KC_VOLD"],
+      ["KC_VOLU", "KC_VOLD"]
     ]
   ]
 }
